@@ -10,7 +10,7 @@ function App() {
 
     useEffect(() => {
         const get = async () => {
-            let result = await axios.get("https://enginehistory.ryamer.com/accountHistory?account=hk-vault&symbol=BUDS");
+            let result = await axios.get("https://enginehistory.ryamer.com/accountHistory?account=hk-buds&symbol=BUDS");
             let d = new Date();
             d.setUTCHours(0,0,0,0);
 
